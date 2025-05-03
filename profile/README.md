@@ -14,7 +14,7 @@ Hệ thống Stella bao gồm hai thành phần chính: **Stella-Server** (backe
 
 - **Mô tả**: Backend của hệ thống Stella, cung cấp các API RESTful để quản lý sinh viên, người dùng, và các nghiệp vụ liên quan. Được xây dựng với .NET 8.0 và MongoDB.
 - **Link**: [Stella-Server](https://github.com/FPT-Stella/Stella-Server)
-- **API Documentation**: Đã được deploy tại [Swagger UI](http://103.179.185.152:5000/swagger/index.html) 📜
+- **API Documentation**: Đã được deploy tại [Swagger UI](https://stella.dacoban.studio/swagger/index.html) 📜
 - **Tính năng chính**:
   - 🧑‍🎓 Quản lý sinh viên (thêm, sửa, xóa, truy vấn theo `UserId`).
   - 👤 Quản lý người dùng và các thực thể khác.
@@ -24,6 +24,7 @@ Hệ thống Stella bao gồm hai thành phần chính: **Stella-Server** (backe
 
 - **Mô tả**: Frontend của hệ thống Stella, cung cấp giao diện người dùng để tương tác với backend. (Giả định sử dụng React hoặc một công nghệ frontend khác, vì thông tin cụ thể không được cung cấp).
 - **Link**: [Stella-Client](https://github.com/FPT-Stella/Stella-Client)
+- **Website Browser**: Đã được deploy tại [Vercel](https://fptstella.vercel.app) 🖥️
 - **Tính năng chính**:
   - 🖥️ Giao diện thân thiện với người dùng để quản lý sinh viên và người dùng.
   - 🔗 Tích hợp với API từ Stella-Server để hiển thị và cập nhật dữ liệu.
@@ -143,9 +144,10 @@ git clone https://github.com/FPT-Stella/Stella-Client.git
   ```
 - Mở trình duyệt và truy cập: `http://localhost:3000` (port mặc định của React, có thể thay đổi tùy cấu hình) 🌐
 
-### 4. Truy cập API deploy 🚀
+### 4. Truy cập API - Website deploy 🚀
 
-- API của Stella-Server đã được deploy tại: [Swagger UI](http://103.179.185.152:5000/swagger/index.html).
+- API của Stella-Server đã được deploy tại: [Swagger UI](https://stella.dacoban.studio/swagger/index.html).
+- Website của Stella-Client đã được deploy tại: [Vercel](https://fptstella.vercel.app)
 
 ## 🤝 Đóng góp
 
